@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div{
+    text-align: center;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(18, 35, 18);
+}
+
+section{
+    height: 80vh;
+    background-image: url(https://scontent.fros9-1.fna.fbcdn.net/v/t39.30808-6/456329763_892861572729904_1695139903218909560_n.png?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=7yE7FMq1JLYQ7kNvgGILXGk&_nc_oc=AdhoDOI9x66rqjmzQArbqmr5JnYYRewLIhL0MU8oeBFzJAoaaygLu1T9e2wwARJhEx2cl-mg8qLNCTH2INWaSdGc&_nc_zt=23&_nc_ht=scontent.fros9-1.fna&_nc_gid=A_u4s93PAe1Jv3SArgZF3d9&oh=00_AYCXyVKaar6XtElGvdF4EsTSM4OiB9h6CSip2RzOYgFFrw&oe=67A34A55);
+    background-size: cover;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+ }
+ section h3{
+    letter-spacing: 2px;
+        font-size: 20px;
+        margin-left: 50px;
+ }
+section h4{
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+section button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 95px;
+    transition: 1s;
+}
+section button:hover{
+    transform: scale(1.1);
+}
+section button a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(49, 58, 47);
+    color: whitesmoke;
+}
+footer div{
+    text-align: center;
+}
